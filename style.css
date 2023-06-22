@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.918);
+    width: 100%;
+    height: 100vh;
+}
+#game{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    background: #323335;
+    grid-template: repeat(30, 1fr) / repeat(50, 1fr);
+}
+#ship{
+    background-color: whitesmoke;
+}
